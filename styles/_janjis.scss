@@ -1,0 +1,62 @@
+.janji1,
+.janji2,
+.janji3 {
+  min-height: 90vh;
+  @include flex(center, center, row);
+  width: 70%;
+  margin: auto;
+  color: white;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+.janji-img {
+  height: 70vh;
+  flex-basis: 30rem;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.janji-text {
+  flex: 1;
+  position: relative;
+  flex-basis: 25rem;
+  h1 {
+    font-size: 6rem;
+    padding: 5rem 0rem;
+  }
+  p {
+    font-size: 2rem;
+    padding: 2rem 2rem 0rem 0rem;
+    margin-bottom: 10rem;
+  }
+}
+.janji1 h1 {
+  color: $color-orange;
+}
+.janji2 h1 {
+  color: $color-purple;
+}
+.janji3 h1 {
+  color: $color-blue;
+}
+.janji-nr1,
+.janji-nr2,
+.janji-nr3 {
+  font-size: 15rem;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  opacity: 0.3;
+}
+.janji-nr1 {
+  color: $color-orange;
+}
+.janji-nr2 {
+  color: $color-purple;
+}
+.janji-nr3 {
+  color: $color-blue;
+}
