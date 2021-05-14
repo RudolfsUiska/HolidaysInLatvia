@@ -90,7 +90,7 @@ main {
 }
 
 .nav-links h3 {
-  padding: 4rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .contact {
@@ -222,12 +222,12 @@ body.hide {
 
 .hero-desc h2 {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .hero-desc p {
   padding: 3rem 0rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #dfdfdf;
 }
 
@@ -370,7 +370,7 @@ body.hide {
 }
 
 .ziemassvetki-text p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
 }
@@ -464,7 +464,7 @@ body.hide {
 }
 
 .janji-text p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
 }
@@ -557,7 +557,7 @@ body.hide {
 }
 
 .lieldienas-text p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
 }
