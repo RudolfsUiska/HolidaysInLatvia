@@ -70,3 +70,17 @@ const myCountdown = new countdown({
   minWord: ' min',
   secWord: ' s'
 });
+const myCountdown1 = new countdown({
+  target: '.countdown1',
+  dayWord: ' dienas',
+  hourWord: ' h',
+  minWord: ' min',
+  secWord: ' s'
+});
+const myCountdown2 = new countdown({
+  target: '.countdown2',
+  dayWord: ' dienas',
+  hourWord: ' h',
+  minWord: ' min',
+  secWord: ' s'
+});

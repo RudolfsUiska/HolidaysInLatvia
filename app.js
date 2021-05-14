@@ -203,6 +203,7 @@ function detailAnimation() {
       .addTo(controller);
   });
 }
+
 //Event listeners
 burger.addEventListener("click", navToggle);
 window.addEventListener("mousemove", cursor);
