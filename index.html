@@ -34,9 +34,15 @@
         <div class="hero-desc">
           <div class="title">
             <h2>
-              Populārākie svētki vasarā, <span class="janji-span">Jāņi!</span>
+              Svētki vasarā, <span class="janji-span">Jāņi!</span>
             </h2>
             <div class="title-swipe t-swipe1"></div>
+          </div>
+          <div class="countdown" data-date="23-7-2021" data-time="0:00">
+            <div class="day"><span class="num"></span><span class="word"></span></div>
+            <div class="hour"><span class="num"></span><span class="word"></span></div>
+            <div class="min"><span class="num"></span><span class="word"></span></div>
+            <div class="sec"><span class="num"></span><span class="word"></span></div>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
@@ -122,5 +128,14 @@
       crossorigin="anonymous"
     ></script>
     <script src="./app.js"></script>
+    <script src="./countdown/countdown.js"></script>
+    <script>
+      const myCountdown = new countdown({
+      target: '.countdown',
+      dayWord: ' days',
+      hourWord: ' hours',
+      minWord: ' mins',
+      secWord: ' seconds'
+    });</script>
   </body>
 </html>
