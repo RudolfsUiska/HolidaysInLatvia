@@ -63,3 +63,10 @@ const countdown = function(_config) {
 }
 
 const addZero = (x) => (x < 10 && x >= 0) ? "0"+x : x;
+const myCountdown = new countdown({
+  target: '.countdown',
+  dayWord: ' dienas',
+  hourWord: ' h',
+  minWord: ' min',
+  secWord: ' s'
+});
