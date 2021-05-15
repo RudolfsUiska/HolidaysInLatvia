@@ -19,7 +19,11 @@
   </head>
   <body data-barba="wrapper">
     <header class="nav-header">
-      <h1><a href="../" id="logo">Svētki Latvijā</a></h1>
+      <h1><a href="../" id="logo"></a></h1>
+      <div class="lang">
+        <a onclick="changeLang('lv')">LV</a>
+        <a onclick="changeLang('en')">EN</a>
+      </div>
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -28,16 +32,8 @@
     <main data-barba="container" data-barba-namespace="ziemassvetki">
       <section class="ziemassvetki1 details-slide">
         <div class="ziemassvetki-text">
-          <h1>Egle</h1>
-          <p>
-            Viena no Ziemassvētku tradīcijām ir egles ieneša mājas un tās izrotāšana. 
-            Leģenda vēsta, ka tieši Rīgā ir aizsākusies šī tradīcija tālajā 1511. gadā. 
-            Sākotnēji cilvēki eglīti rotājuši ar konfektēm, augļiem un no papīra gatavotiem rotājumiem, 
-            bet mūsdienās rotāšanai vairāk izmanto speciāli tam pagatavotus rotājumus. 
-            Šī tradīcija ir ļoti svarīga svētku noskaņas radīšanā. 
-            Lampiņu virtenes, krāšņie rotājumi un iedegtās svecītes eglītē padara šos svētkus sirsnīgākus un 
-            izgaismo tumšo laiku.
-          </p>
+          <h1 id="ziemassvetki-title1"></h1>
+          <p id="ziemassvetki-text1"></p>
         </div>
         <div class="ziemassvetki-img">
           <img src="../img/ziemassvetki-img1.jpg" alt="ziemassvetki photo 1" />
@@ -45,15 +41,8 @@
       </section>
       <section class="ziemassvetki2 details-slide">
         <div class="ziemassvetki-text">
-          <h1>Ēdieni</h1>
-          <p>
-            Tautas tradīcija vēsta, ka uz galda Ziemassvētkos jābūt vismaz 9 dažādiem ēdieniem, 
-            lai nākamais gads būtu pārticis un bagāts. 
-            Ziemassvētku mielastā ietilpst tādi ēdieni kā pelēkie zirņi, pīrāgi, piparkūkas, štovēti kāposti, 
-            cūkgaļa un vēl citi latviešu tradicionālie ēdieni. Senie latvieši ticēja, 
-            ka katrs no šiem tradicionālajiem ēdieniem nesa kādu labu vēsti, kuras piepildīsīsies nākamajā gadā. 
-            Ziemassvētku mielasts mūsdienās ir ģimeniska tradīcija.
-          </p>
+          <h1 id="ziemassvetki-title2"></h1>
+          <p id="ziemassvetki-text2"></p>
         </div>
         <div class="ziemassvetki-img">
           <img src="../img/ziemassvetki-img2.jpg" alt="ziemassvetki photo 2" />
@@ -61,14 +50,8 @@
       </section>
       <section class="ziemassvetki3 details-slide">
         <div class="ziemassvetki-text">
-          <h1>Dāvanas</h1>
-          <p>
-            Nereti Ziemassvētkus mēdz dēvēt par apdāvināšanas laiku. 
-            Dāvanu dāvināšana ir jauka un sirsnīga piedeva šajos svētkos. 
-            Tādējādi tiek apliecināts svarīgums un sirsnība vienam pret otru.  
-            Ziemassvētkos ir pieņemts, ka šīs dāvanas atnes Ziemassvētku vecītis, kas ir viens no šo svētku simboliem,  
-            un tās noliek zem izrotātās eglītes. Šī tradīcija mūsdienās ir ieguvusi vēl lielāku nozīmīgumu. 
-          </p>
+          <h1 id="ziemassvetki-title3"></h1>
+          <p id="ziemassvetki-text3"></p>
         </div>
         <div class="ziemassvetki-img">
           <img src="../img/ziemassvetki-img3.jpg" alt="ziemassvetki photo 3" />
@@ -77,11 +60,10 @@
     </main>
     <nav class="nav-bar">
       <ul class="nav-links">
-        <h3>Gadskārtu vainags</h3>
+        <h2 id="vainags"></h2>
       </ul>
       <div class="contact">     
-        
-        <model-viewer  style="width: 800px; height: 700px;" src="../models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg" ></model-viewer>
+        <model-viewer  style="width: 700px; height: 500px;" src="./models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg 600m" ></model-viewer>
       </div>
     </nav>
     <div class="cursor">
@@ -111,7 +93,7 @@
       integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
       crossorigin="anonymous"
     ></script>
-    <script src="../app.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="../app.js"></script>
   </body>
 </html>

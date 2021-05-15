@@ -370,6 +370,7 @@ body.hide {
 }
 
 .ziemassvetki-text p {
+  text-align: justify;
   font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
@@ -464,6 +465,7 @@ body.hide {
 }
 
 .janji-text p {
+  text-align: justify;
   font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
@@ -557,6 +559,7 @@ body.hide {
 }
 
 .lieldienas-text p {
+  text-align: justify;
   font-size: 1.2rem;
   padding: 2rem 2rem 0rem 0rem;
   margin-bottom: 10rem;
@@ -635,7 +638,7 @@ body.hide {
     padding: 2rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: justify;
   }
   .hero-img {
     padding: 4rem;

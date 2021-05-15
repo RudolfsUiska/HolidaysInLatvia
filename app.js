@@ -159,6 +159,7 @@ barba.init({
           { x: "0%", onComplete: done },
           "-=0.5"
         );
+        location.reload();
       },
       enter({ current, next }) {
         let done = this.async();
@@ -177,6 +178,7 @@ barba.init({
           { y: "0%", ease: "power2.inOut" },
           "-=1.5"
         );
+        location.reload();
       },
     },
   ],
@@ -208,3 +210,68 @@ function detailAnimation() {
 burger.addEventListener("click", navToggle);
 window.addEventListener("mousemove", cursor);
 window.addEventListener("mousemove", activeCursor);
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+  var lang = sessionStorage.getItem("lang");
+  if (lang == null) {
+    lang = "lv";
+  }
+  var request = new XMLHttpRequest();
+  request.open("GET", "/data/" + lang +".json", false);
+  request.send(null)
+  var tData = JSON.parse(request.responseText);
+
+  tData.data.forEach(showHollidays);
+  time = tData.time;
+  for (const element of document.getElementsByClassName("explore")){
+    element.innerHTML = tData.general.more;
+  }
+  document.getElementById("logo").innerHTML = tData.general.logo;
+  document.getElementById("vainags").innerHTML = tData.general.vainags;
+  if(document.getElementsByClassName("countdown")) {
+    const myCountdown = new countdown({
+      target: '.countdown',
+      dayWord: time.day,
+      hourWord: time.h,
+      minWord: time.min,
+      secWord: time.s
+    });
+    const myCountdown1 = new countdown({
+      target: '.countdown1',
+      dayWord: time.day,
+      hourWord: time.h,
+      minWord: time.min,
+      secWord: time.s
+    });
+    const myCountdown2 = new countdown({
+      target: '.countdown2',
+      dayWord: time.day,
+      hourWord: time.h,
+      minWord: time.min,
+      secWord: time.s
+    });
+}
+});
+
+function showHollidays(item) {
+  ifElemetExistSetValue(document.getElementById(item.class + "-text"), item.text);
+  ifElemetExistSetValue(document.getElementById(item.class + "-titleStart"), item.titleStart);
+  ifElemetExistSetValue(document.getElementById(item.class + "-title"), item.title);
+  ifElemetExistSetValue(document.getElementById(item.class + "-title1"), item.title1);
+  ifElemetExistSetValue(document.getElementById(item.class + "-title2"), item.title2);
+  ifElemetExistSetValue(document.getElementById(item.class + "-title3"), item.title3);
+  ifElemetExistSetValue(document.getElementById(item.class + "-text1"), item.text1);
+  ifElemetExistSetValue(document.getElementById(item.class + "-text2"), item.text2);
+  ifElemetExistSetValue(document.getElementById(item.class + "-text3"), item.text3);
+}
+
+function ifElemetExistSetValue(elemet, value) {
+  if (elemet) {
+    elemet.innerHTML = value;
+  }
+}
+
+function changeLang(lang) {
+  sessionStorage.setItem("lang", lang);
+  location.reload();
+}

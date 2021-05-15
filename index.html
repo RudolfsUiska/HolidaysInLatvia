@@ -19,13 +19,17 @@
   </head>
   <body data-barba="wrapper">
     <header class="nav-header">
-      <h1><a href="./" id="logo">Svētki Latvijā</a></h1>
+      <h1><a href="./" id="logo"></a></h1>
+      <div class="lang">
+        <a onclick="changeLang('lv')">LV</a>
+        <a onclick="changeLang('en')">EN</a>
+      </div>
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
       </div>
     </header>
-    <main data-barba="container" data-barba-namespace="home">
+    <main data-barba="container" data-barba-namespace="home" id="hollidays">
       <section class="janji slide">
         <div class="hero-img">
           <img src="./img/janji.jpeg" alt="janji image" />
@@ -34,28 +38,19 @@
         <div class="hero-desc">
           <div class="title">
             <h2>
-              Svētki vasarā, <span class="janji-span">Jāņi!</span>
-              
+              <span id="janji-titleStart"></span> <span class="janji-span" id="janji-title"></span>  
             </h2>
             <div class="title-swipe t-swipe1"></div>
-          </div>
-          <h3>          <div class="countdown" data-date="23-7-2021" data-time="0:00">
-            Līdz Jāņiem 
+          </div>     
+          <div class="countdown" data-date="23-7-2021" data-time="0:00">
+            <span id="janji-till"></span>
             <span class="day"><span class="num"></span><span class="word"></span></span>
             <span class="hour"><span class="num"></span><span class="word"></span></span>
             <span class="min"><span class="num"></span><span class="word"></span></span>
             <span class="sec"><span class="num"></span><span class="word"></span></span >
-          </div></h3>
-          
-          <p>
-            Jāņi un Līgo svētki ir tradīcijām bagātākie un līksmākie latviešu svētki.
-            Tos svin vasaras saulgriežos, kad Saule ir sasniegusi savu augstāko punktu debesu lokā, 
-            kad ir visgarākā diena gadā, tai seko visīsākā gada nakts un daba ir savā ziedēšanas pilnbriedā.
-            Pēc senlatviešu tradīcijām tie svinami saskaņā ar saules ritējumu, svinēšanas pasākumi sākas jau no 21. jūnija. 
-            Vienoti visā Latvijā Līgo dienu svin 23. jūnijā, Jāņu dienu 24. jūnijā, kuras ir valsts oficiālās brīvdienas.
-
-          </p>
-          <a href="./jani/" class="explore janji-exp">Sīkāk</a>
+          </div>
+          <p id="janji-text"></p>
+          <a href="./jani/" class="explore janji-exp"></a>
           <div class="reveal-text"></div>
         </div>
       </section>
@@ -66,23 +61,20 @@
         </div>
         <div class="hero-desc">
           <div class="title">
-            <h2>Pavasara saulgrieži <span class="lieldienas-span">Lieldienas.</span></h2>
+            <h2>
+              <span id="lieldienas-titleStart"></span> <span class="lieldienas-span" id="lieldienas-title"></span>  
+            </h2>
             <div class="title-swipe t-swipe2"></div>
           </div>
-          <h3>          <div class="countdown1" data-date="17-04-2022" data-time="0:00">
-            Līdz Lieldienām
+          <div class="countdown1" data-date="17-04-2022" data-time="0:00">
+            <span id="lieldienas-till"></span>
             <span class="day"><span class="num"></span><span class="word"></span></span>
             <span class="hour"><span class="num"></span><span class="word"></span></span>
             <span class="min"><span class="num"></span><span class="word"></span></span>
             <span class="sec"><span class="num"></span><span class="word"></span></span >
-          </div></h3>
-          <p>
-            Lieldienas pēc senlatviešu tradīcijām ir pavasara saulgriežu svinības. 
-            Atkarībā no Zemes un Saules savstarpējā stāvokļa, 
-            diena un nakts ir vienāda garuma, pēc tam dienas paliek garākas un naktis īsākas.  
-            Katru gadu šie svētki ir svinami atšķirīgā kalendārajā datumā, parasti tas ir martā vai aprīlī.
-          </p>
-          <a href="./lieldienas/" class="explore lieldienas-exp">Sīkāk</a>
+          </div>
+          <p id="lieldienas-text"></p>
+          <a href="./lieldienas/" class="explore lieldienas-exp"></a>
           <div class="reveal-text"></div>
         </div>
       </section>
@@ -93,35 +85,30 @@
         </div>
         <div class="hero-desc">
           <div class="title">
-            <h2>Ģimeniskākie svētki ir <span class="ziemassvetki-span">Ziemassvetki.</span></h2>
+            <h2>
+              <span id="ziemassvetki-titleStart"></span> <span class="ziemassvetki-span" id="ziemassvetki-title"></span>  
+            </h2>
             <div class="title-swipe t-swipe3"></div>
-          </div>
-          <h3>          <div class="countdown2" data-date="24-12-2021" data-time="0:00">
-            Līdz Ziemassvētkiem
+          </div>        
+          <div class="countdown2" data-date="24-12-2021" data-time="0:00">
+            <span id="ziemassvetki-till"></span>
             <span class="day"><span class="num"></span><span class="word"></span></span>
-            <span  class="hour"><span class="num"></span><span class="word"></span></span>
-            <span  class="min"><span class="num"></span><span class="word"></span></span>
-            <span  class="sec"><span class="num"></span><span class="word"></span></span >
-          </div></h3>
-          <p>
-            Ziemassvētki ir ziemas saulgrieži, kad gadā ir iestājusies visgarākā nakts un visīsākā diena. 
-            Šajās dienās arī svin Jēzus Kristus dzimšanus. Parasti šie svētki ilgst no 24.decembra līdz 26.decembrim. 
-            Šajās dienās ietilpst Ziemassvētku vakars, Pirmie un Otrie Ziemassvētki. 
-            Tiek ievērotas dažādas tradīcijas, kuras ir aizgūtas no sendienām. 
-            Senlatviešiem arī tika ievērotas dažādas tradīcijas, kuras ir saglabājušās mūsdienās.
-          </p>
-          <a href="./ziemassvetki/" class="explore ziemassvetki-exp">Sīkāk</a>
+            <span class="hour"><span class="num"></span><span class="word"></span></span>
+            <span class="min"><span class="num"></span><span class="word"></span></span>
+            <span class="sec"><span class="num"></span><span class="word"></span></span >
+          </div>
+          <p id="ziemassvetki-text"></p>
+          <a href="./ziemassvetki/" class="explore ziemassvetki-exp"></a>
           <div class="reveal-text"></div>
         </div>
       </section>
     </main>
     <nav class="nav-bar">
       <ul class="nav-links">
-        <h2>Gadskārtu vainags</h2>
+        <h2 id="vainags"></h2>
       </ul>
       <div class="contact">   
-        <model-viewer  style="width: 800px; height: 700px;" src="./models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg" ></model-viewer>
-        <!--<img src="./img/gadskartu_vainags.jpg" alt="gadskartu vainags image" />-->
+        <model-viewer  style="width: 700px; height: 500px;" src="./models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg 600m" ></model-viewer>
       </div>
     </nav>
     <div class="cursor">
@@ -151,8 +138,8 @@
       integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js"></script>
     <script src="./countdown/countdown.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>

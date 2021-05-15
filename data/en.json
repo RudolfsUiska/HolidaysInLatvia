@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "titleStart": "Summer Festival",
+            "title": "Midsummer",
+            "class": "janji",
+            "till": "Until Midsummer",
+            "text": "Midsummer and Midsummer's Day is the most traditional and joyful Latvian holiday, celebrated at the summer solstice, when the sun has reached its highest point in the sky, when it is the longest day of the year, followed by the shortest night of the year and nature is in full bloom. According to the traditions of ancient Latvians, they are celebrated in accordance with the sun, the celebration events start on June 21. The Midsummer Day is celebrated throughout Latvia on June 23, Midsummer Day on June 24, which is the official public holiday.",
+            "title1": "Ugunskurs",
+            "text1": "Jāņu ugunskura simbolika ir saistīta ar saules aizstāšanu pēc tam, kad tā ir norietējusi, lai pat tad, kad ir iestājusies gada visīsākā nakts, svētki nepaliktu bez saules, tas ir, gaismas klātbūtnes. Ir pieņemts, ka šo ugunskuru veido vīrieši, sieviešu uzdevums ir to izrotāt ar dažādām Jāņu zālēm un ziediem. Vadoties pēc senlatviešu tradīcijām ir svarīgi izvēlēties vietu, kur šo Jāņuguni radīt, lai rastu tā nozīmi visā savā būtībā. Šīs vietas meklēšana ir jāvadās pēc uguns āderes krustpunkta - vieta, kur zaļāka zāle, atrodas sarkanās skudras u.t.t. Taču, ja nevēlās iedziļināties niancēs, tad svarīgi ir atcerēties, ka šis ugunskurs ir jāveido pakalnē. Tradicionāli visspēcīgākais ugunskurs izdosies no ozolkoka pagalēm.",
+            "title2": "Jāņu siers",
+            "text2": "Jāņu siera ēšana ir viena no latviešu tautas senākajām tradīcijām. Senlatviešiem šī īpašā Jāņu siera siešana un ēšana simbolizēja lopkopības svarīgumu seno latviešu saimniecībā, bet mūsdienās šis siers simbolizē latviešu nacionālās identitātes vērtību. Jāņu siers, kas izsiets apļveida formā simbolizē sauli un pasauli tās veselumā.",
+            "title3": "Vainags",
+            "text3": "Līgo svētku vainags un tā pīšana ir viena no svarīgākajām latviešu vasaras saulgriežu svētku tradīcijām. To veido divi svarīgi elementi: aplis kā saules simbols un izvēlētās Jāņu zāles, kuras apveltītas ar dažādu zāļu spēku. Vīriešu vainagus parasti izvēlas pīt no ozollapām, bet sieviešu no jebkādiem ziediem, zālēm, dažkārt iepin arī ozollapas. No senlatviešu tradīcijām ir radies noteikums par trejdeviņu ziedu izmantošanu, jo tieši tik daudz un dažādi ziedi vainagā dod spēku un enerģiju. Svarīgi pinot vainagu ir atcerēties domāt gaišas domas un būt labā garastāvoklī!"   
+        },
+        {
+            "titleStart": "Spring Solstice",
+            "title": "Easter",
+            "class": "lieldienas",
+            "till": "Until Easter",
+            "text": "Easter, according to ancient Latvian traditions, is a spring solstice celebration. Depending on the mutual condition of the Earth and the Sun, the day and night are the same length, then the days are longer and the nights shorter. Each year is celebrated on a different calendar date, usually is in March or April. ",
+            "title1": "Olas",
+            "text1": "Olas Lieldienās simbolizē sauli, kā arī jaunu dzīvību. Pēc senlatviešu tradīcijām olu ēšana veicina labāku veselību un aizsargā no nelaimēm. Viena no tradīcijām ir olu krāsošana sīpolu mizu ūdenī, tādējādi tām piešķirot krāsu. Visatraktīvākā tradīcija ir olu kaujas - pirms tiek veikta šī atrakcija, katram cilvēkam ir jāievēlas kāda vēlēšanās, kam ola nesaplīst, tam vēlēšanās piepildīsies. Galvenā Lieldienu tradīcija ir olu ripināšana.",           
+            "title2": "Šūpoles",
+            "text2": "Viena no unikālākajām Lieldienu tradīcijām - šūpošanās šūpolēs. Tā ir ne tikai jautra atrakcija, bet arī tai piemīt liela nozīme. Šūpošanās ir maģisks rituāls, kas simboliski atdarina saules dancošanu Lieldienu rītā. Ar šūpošanās maģiju palīdz saulei iešūpoties, lai vieglāk būtu uzkāpt debesīs. Vēl, latviešu ticējumi vēsta, ka Lieldienās vajag daudz šūpoties, tad visu gadu nenāks miegs un vasarā odi un dunduri nekodīs. Tāpat, senlatvieši ticēja, ka šūpošanās simbolizēja ražas auglību.",
+            "title3": "Pūpoli",
+            "text3": "Viena no senākajām tradīcijām, kas tiek veikta Pūpolsvētdienā ir pēršana ar pūpolu zariem. Dažādās Latvijas vietās pēršana tiek saukta arī par kulšanu, pūpološanu, pūpūlāšanu un vērbošanu. Nav gan īsti noskaidrots, kā un kāpēc radusies šī tradīcija, taču tās pirmsākumi tiek saistīti pat ar ļoti seniem, un pat pagāniskiem rituāliem, ko veica senlatvieši. Mūsdienās šajā dienā tiek saplūkta zaru bunte ar izplaukušiem pūpoliem, lai pēc tam ar to varētu nopērt otru, sakot: “Apaļš kā pūpols, apaļš kā pūpols, slimībā ārā, veselība iekšā!”. Šādā veidā otram tiek novēlēta laba veselība visa atlikušā gada garumā."
+        },
+        {
+            "titleStart": "Family Holidays",
+            "title": "Christmas",
+            "class": "ziemassvetki",
+            "till": "Until Christmas",
+            "text": "Christmas is the winter solstice, when the longest night and the shortest day of the year occur. These days also celebrate the birth of Jesus Christ. These festivals usually last from December 24 to December 26. These days include Christmas Eve, First and Second Christmas. It is respect for different traditions that have been borrowed from the ancient times. the ancient Latvians were also respected the different traditions that have survived today. ",
+            "title1": "Egle",
+            "text1": "Viena no Ziemassvētku tradīcijām ir egles ieneša mājas un tās izrotāšana. Leģenda vēsta, ka tieši Rīgā ir aizsākusies šī tradīcija tālajā 1511. gadā. Sākotnēji cilvēki eglīti rotājuši ar konfektēm, augļiem un no papīra gatavotiem rotājumiem, bet mūsdienās rotāšanai vairāk izmanto speciāli tam pagatavotus rotājumus. Šī tradīcija ir ļoti svarīga svētku noskaņas radīšanā. Lampiņu virtenes, krāšņie rotājumi un iedegtās svecītes eglītē padara šos svētkus sirsnīgākus un izgaismo tumšo laiku.",
+            "title2": "Ēdieni",
+            "text2": "Tautas tradīcija vēsta, ka uz galda Ziemassvētkos jābūt vismaz 9 dažādiem ēdieniem, lai nākamais gads būtu pārticis un bagāts. Ziemassvētku mielastā ietilpst tādi ēdieni kā pelēkie zirņi, pīrāgi, piparkūkas, štovēti kāposti, cūkgaļa un vēl citi latviešu tradicionālie ēdieni. Senie latvieši ticēja, ka katrs no šiem tradicionālajiem ēdieniem nesa kādu labu vēsti, kuras piepildīsīsies nākamajā gadā. Ziemassvētku mielasts mūsdienās ir ģimeniska tradīcija.",
+            "title3": "Dāvanas",
+            "text3": "Nereti Ziemassvētkus mēdz dēvēt par apdāvināšanas laiku. Dāvanu dāvināšana ir jauka un sirsnīga piedeva šajos svētkos. Tādējādi tiek apliecināts svarīgums un sirsnība vienam pret otru. Ziemassvētkos ir pieņemts, ka šīs dāvanas atnes Ziemassvētku vecītis, kas ir viens no šo svētku simboliem, un tās noliek zem izrotātās eglītes. Šī tradīcija mūsdienās ir ieguvusi vēl lielāku nozīmīgumu. "
+        }
+    ],
+    "time": {
+        "h": " h",
+        "s": " s",
+        "min": " min",
+        "day": " days"
+    },
+    "general": {
+        "more": "More info",
+        "logo": "Holidays in Latvia",
+        "vainags": "Gadskārtu vainags"
+    }
+}

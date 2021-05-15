@@ -20,6 +20,10 @@
   <body data-barba="wrapper">
     <header class="nav-header">
       <h1><a href="../" id="logo">Svētki Latvijā</a></h1>
+      <div class="lang">
+        <a onclick="changeLang('lv')">LV</a>
+        <a onclick="changeLang('en')">EN</a>
+      </div>
       <div class="burger">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -28,17 +32,8 @@
     <main data-barba="container" data-barba-namespace="janji">
       <section class="janji1 details-slide">
         <div class="janji-text">
-          <h1>Ugunskurs</h1>
-          <p>
-            Jāņu ugunskura simbolika ir saistīta ar saules aizstāšanu pēc tam, kad tā ir norietējusi,
-             lai pat tad, kad ir iestājusies gada visīsākā nakts, svētki nepaliktu bez saules, 
-              tas ir, gaismas klātbūtnes. Ir pieņemts, ka šo ugunskuru veido vīrieši, sieviešu uzdevums 
-              ir to izrotāt ar dažādām Jāņu zālēm un ziediem. Vadoties pēc senlatviešu tradīcijām ir svarīgi 
-              izvēlēties vietu, kur šo Jāņuguni radīt, lai rastu tā nozīmi visā savā būtībā. Šīs vietas meklēšana ir
-              jāvadās pēc uguns āderes krustpunkta - vieta, kur zaļāka zāle, atrodas sarkanās skudras u.t.t. 
-              Taču, ja nevēlās iedziļināties niancēs, tad svarīgi ir atcerēties, ka šis ugunskurs ir jāveido pakalnē. 
-              Tradicionāli visspēcīgākais ugunskurs izdosies no ozolkoka pagalēm.
-          </p>
+          <h1 id="janji-title1"></h1>
+          <p id="janji-text1"></p>
         </div>
         <div class="janji-img">
          <img src="../img/janji-img1.jpg" alt="janji photo 1" />
@@ -46,14 +41,8 @@
       </section>
       <section class="janji2 details-slide">
         <div class="janji-text">
-          <h1>Jāņu siers</h1>
-          <p>
-            Jāņu siera ēšana ir viena no latviešu tautas senākajām tradīcijām. 
-            Senlatviešiem šī īpašā Jāņu siera siešana un ēšana simbolizēja lopkopības svarīgumu seno latviešu saimniecībā,
-             bet mūsdienās šis siers simbolizē latviešu nacionālās identitātes vērtību. 
-            Jāņu siers, kas izsiets apļveida formā simbolizē sauli un pasauli tās veselumā.
-            
-          </p>
+          <h1 id="janji-title2"></h1>
+          <p id="janji-text2"></p>
         </div>
         <div class="janji-img">
           <img src="../img/janji-img2.jpeg" alt="janji photo 2" />
@@ -61,14 +50,8 @@
       </section>
       <section class="janji3 details-slide">
         <div class="janji-text">
-          <h1>Vainags</h1>
-          <p>
-            Līgo svētku vainags un tā pīšana ir viena no svarīgākajām latviešu vasaras saulgriežu svētku tradīcijām. To veido divi svarīgi elementi: aplis kā saules simbols un izvēlētās Jāņu zāles, kuras apveltītas ar dažādu zāļu spēku. 
-            Vīriešu vainagus parasti izvēlas pīt no ozollapām, bet sieviešu no jebkādiem ziediem, zālēm, dažkārt iepin arī ozollapas.
-            No senlatviešu tradīcijām ir radies noteikums par trejdeviņu ziedu izmantošanu, jo tieši tik daudz un dažādi ziedi vainagā dod spēku un enerģiju.
-            Svarīgi pinot vainagu ir atcerēties domāt gaišas domas un būt labā garastāvoklī!
-
-          </p>
+          <h1 id="janji-title3"></h1>
+          <p id="janji-text3"></p>
         </div>
         <div class="janji-img">
           <img src="../img/janji-img3.jpg" alt="janji photo 3" />
@@ -77,11 +60,10 @@
     </main>
     <nav class="nav-bar">
       <ul class="nav-links">
-        <h3>Gadskārtu vainags</h3>
+        <h2 id="vainags"></h2>
       </ul>
       <div class="contact">     
-        
-        <model-viewer  style="width: 800px; height: 700px;" src="../models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg" ></model-viewer>
+        <model-viewer  style="width: 700px; height: 500px;" src="./models/gadaskartu-vainags.glb" alt="Gadskārtu vainags" auto-rotate camera-controls camera-orbit="120deg 100deg 600m" ></model-viewer>
       </div>
     </nav>
     <div class="cursor">
@@ -112,7 +94,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../app.js"></script>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </body>
 </html>
