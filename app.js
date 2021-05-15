@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     lang = "lv";
   }
   var request = new XMLHttpRequest();
-  request.open("GET", "/data/" + lang +".json", false);
+  request.open("GET", "https://rudolfsuiska.github.io/HolidaysInLatvia/data/" + lang +".json", false);
   request.send(null)
   var tData = JSON.parse(request.responseText);
 
