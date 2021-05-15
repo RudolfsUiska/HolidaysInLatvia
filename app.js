@@ -257,6 +257,7 @@ function showHollidays(item) {
   ifElemetExistSetValue(document.getElementById(item.class + "-text"), item.text);
   ifElemetExistSetValue(document.getElementById(item.class + "-titleStart"), item.titleStart);
   ifElemetExistSetValue(document.getElementById(item.class + "-title"), item.title);
+  ifElemetExistSetValue(document.getElementById(item.class + "-till"), item.till);
   ifElemetExistSetValue(document.getElementById(item.class + "-title1"), item.title1);
   ifElemetExistSetValue(document.getElementById(item.class + "-title2"), item.title2);
   ifElemetExistSetValue(document.getElementById(item.class + "-title3"), item.title3);
