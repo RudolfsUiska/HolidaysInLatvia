@@ -28,11 +28,6 @@ function animateSlides() {
       reverse: false,
     })
       .setTween(slideTl)
-      //   .addIndicators({
-      //     colorStart: "white",
-      //     colorTrigger: "white",
-      //     name: "slide",
-      //   })
       .addTo(controller);
     //New Animation
     const pageTl = gsap.timeline();
